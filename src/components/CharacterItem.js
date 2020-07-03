@@ -1,19 +1,6 @@
-import React, { useEffect } from 'react';
-
-import axios from '../axios_intance';
+import React from 'react';
 
 const CharacterItem = ({ item }) => {
-  // useEffect(() => {
-  //   const getQuote = async () => {
-  //     const newName = item.name.replace(/ /g, '+');
-
-  //     const result = await axios.get(`/quote/random?author=${newName}`);
-  //     console.log(result.data);
-  //   };
-
-  //   getQuote();
-  // });
-
   return (
     <div className="card">
       <div className="card-inner">
